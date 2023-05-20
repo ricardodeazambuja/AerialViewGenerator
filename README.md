@@ -19,7 +19,7 @@ basemaps = AerialView.getBasemaps()
 # check available free tile servers
 print(basemaps.keys())
 ```
-The available maps vary the zoom levels offered. Examples of tile server URL (you need to fill any field besides the `z`, `x`, and `y` ones):
+The available maps vary the zoom levels offered. Examples of tile server URL (you need to fill any fields besides the `z`, `x`, and `y` ones):
 * `basemaps['OpenStreetMap.Mapnik']` : `https://tile.openstreetmap.org/{z}/{x}/{y}.png`
 * `basemaps['GeoportailFrance.orthos']` : `https://wxs.ign.fr/{apikey}/geoportail/wmts?REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0&STYLE={style}&TILEMATRIXSET={TileMatrixSet}&FORMAT={format}&LAYER={variant}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}`
 * `basemaps['USGS.USImagery']` : `https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}`
@@ -31,7 +31,7 @@ Finally, search online and you will find other map tile servers that are availab
 
 ## How to use it
 
-Depending on your tile server, certain zoom levels will be available. Usually some non-free providers will offer a maximum of up to 20, but for the free ones the zoom goes up to 19. Below is an example for image from France:
+Depending on your tile server, certain zoom levels will be available. Usually some non-free providers will offer a maximum of up to 20, but for the free ones the zoom goes up to 19. Below is an example for image from France (the only fields left in the `baseurl` were `z`, `x`, and `y`):
 ```
 from aerialviewgenerator.aerialview import AerialView
 
