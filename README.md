@@ -45,7 +45,7 @@ lat, lon = 48.858327718853104, 2.294309636169546
 img = avg.getAerialImage(lat, lon, bearing, altitude, fov, output_size=(512,512))
 img.show()
 ```
-ADD IMAGE HERE!
+![image](https://github.com/ricardodeazambuja/AerialViewGenerator/assets/6606382/4b598c88-4857-4c13-912c-f8316f24205c)
 
 ## Examples
 The only example available, so far, is [this notebook](https://github.com/ricardodeazambuja/AerialViewGenerator/blob/main/Example.ipynb). You can test it directly on google colab: 
