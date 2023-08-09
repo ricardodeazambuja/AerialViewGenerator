@@ -22,7 +22,7 @@ setup(
     url="https://github.com/ricardodeazambuja/AerialViewGenerator",
     download_url=f"https://github.com/ricardodeazambuja/AerialViewGenerator/archive/refs/tags/v{VERSION}.tar.gz",
     keywords=['UAV', 'aerial images'],
-    install_requires=['requests', 'pillow'],
+    install_requires=['requests', 'pillow', 'quad_sim_python'],
     classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
