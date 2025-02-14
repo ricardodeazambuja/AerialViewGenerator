@@ -27,6 +27,9 @@ The available maps vary the zoom levels offered. Examples of tile server URL (yo
 
 Another place to check online is the [Leaflet providers preview](https://leaflet-extras.github.io/leaflet-providers/preview/index.html)
 
+If nothing else works, try the maps from Google (but don't abuse it, or you will certainly get banned):
+* `baseurl="https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"`
+
 Finally, search online and you will find other map tile servers that are available.
 
 ## How to use it
